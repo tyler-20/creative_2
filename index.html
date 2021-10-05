@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>The One Ring</title>
+        <link rel="stylesheet" href="/styles.css">
+    </head>
+    <body>
+        <form class="characterInput">
+            <label>Filter Search:</label>
+            <input id="characterName" type="text" placeholder="Gandalf"></input><br/>
+            <input id="submit" type="submit" value="Submit"></input>
+        </form>
+
+        <div class="page_index">
+            <button disabled class="prev" type="submit">Prev</button>
+            <h3 id="page_count">page: 1/*</h3>
+            <button class="next" type="submit">Next</button>
+        </div>
+
+        <div id="characterList">
+            <div class="container">
+                <h2>LOADING...</h2>
+            </div>
+        </div>
+
+        <div class="page_index">
+            <button disabled class="prev" type="submit">Prev</button>
+            <button class="next" type="submit">Next</button>
+        </div>
+
+        <script text="type/javascript" src="/script.js"></script>
+
+    </body>
+</html>
