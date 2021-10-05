@@ -20,7 +20,7 @@ function getList() {
 
     fetch(url, {
         method: 'GET',
-        headers: {authorization: 'Bearer 3w1FDe-ShtM-xvbg-o6h'}
+        headers: {authorization: 'Bearer <Token_That_Wont_Be_On_GitHub>'}
     })
         .then(function(response) {
             return response.json();
